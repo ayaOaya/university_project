@@ -30,9 +30,9 @@
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr;
             height: 10vh;
-            width: 100vw;
+            width: 90vw;
             position: absolute;
-            background-color: #7cdaffeb;
+            background-color: #9BB9D1;
             top: 45rem;
             left: 0;
             z-index: 5;
@@ -43,7 +43,7 @@
                 display: flex;
                 flex-direction: row;
                 .wrapper-grid-img1{
-                    background-image: url(../../public/img/pexels-kampus-production-5940841.jpg);
+                    background-image: url(../../public/img/vasily-koloda-8CqDvPuo_kI-unsplash.jpg);
                     height: 8vh;
                     width: 4vw;
                     background-size: cover;
@@ -61,7 +61,7 @@
                 display: flex;
                 flex-direction: row;
                 .wrapper-grid-img2{
-                    background-image: url(../../public/img/pexels-kampus-production-5940841.jpg);
+                    background-image: url(../../public/img/kenny-eliason-1-aA2Fadydc-unsplash.jpg);
                     height: 8vh;
                     width: 4vw;
                     background-size: cover;
@@ -80,7 +80,7 @@
                 display: flex;
                 flex-direction: row;
                 .wrapper-grid-img3{
-                    background-image: url(../../public/img/pexels-kampus-production-5940841.jpg);
+                    background-image: url(../../public/img/pexels-icsa-1708988.jpg);
                     height: 8vh;
                     width: 4vw;
                     background-size: cover;
@@ -99,7 +99,7 @@
                 display: flex;
                 flex-direction: row;
                 .wrapper-grid-img4{
-                    background-image: url(../../public/img/pexels-kampus-production-5940841.jpg);
+                    background-image: url(../../public/img/pexels-stanley-morales-3186386.jpg);
                     height: 8vh;
                     width: 4vw;
                     background-size: cover;
