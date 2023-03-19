@@ -1,0 +1,118 @@
+.about{
+    height: 500vh;
+    margin-top: 10rem;
+    .about-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0 25px;
+        margin-left: 100px;
+        .about-titles{
+            font-family: sans-serif;
+            .about-h1{
+                padding-bottom: 10px;
+            }
+        }
+
+        .about-img1{
+            background-image: url(../../public/img/edwin-andrade-4V1dC_eoCwg-unsplash.jpg);
+            height: 80vh;
+            width: 60vw;
+            background-position: center center;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+    }
+    .about-info{
+        position: absolute;
+        top: 70rem;
+        left: 15rem;
+        height: 300px;
+        width: 350px;
+        background-color: #9BB9D1;
+        font-family: sans-serif;
+        .about-info-titles{
+        padding: 0 30px;
+        text-align: center; 
+        padding-top: 13px;       
+    }
+    }
+
+
+    .connect{
+        font-family: sans-serif;
+        margin-top: 15rem;
+        padding: 0 35px;
+        .connect-grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 10px;
+
+            .grid-h2{
+                padding-bottom: 20px;
+            }
+
+            .grid-p{
+                line-height: 23px;
+            }
+        }
+    }
+
+    .bg-pic{
+        background-image: url(../../public/img/pexels-jopwell-2422294.jpg);
+        height: 100vh;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        margin-top: 10rem;
+    }
+
+    .picsText-container{
+        margin-top: 25rem;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        padding: 0 35px;
+
+        .container-grid-1{
+            display: flex;
+            flex-direction: row;
+            .conatiner-grid1-img{
+                background-image: url(../../public/img/pexels-kampus-production-5940841.jpg);
+                height: 60vh;
+                width: 50vw;
+                background-size: cover;
+                background-position: center center;
+            }
+
+            .container-grid1-titles{
+                padding-left: 5rem;
+
+            }
+
+
+        }
+
+
+        .container-grid-2{
+            margin-top: 4rem;
+            display: flex;
+            flex-direction: row;
+            .conatiner-grid2-img{
+                background-image: url(../../public/img/pexels-kampus-production-5940841.jpg);
+                height: 60vh;
+                width: 50vw;
+                background-size: cover;
+                background-position: center center;
+            }
+
+            .container-grid2-titles{
+                padding-right: 28rem;
+
+            }
+
+
+        }
+
+        
+    }
+
+}

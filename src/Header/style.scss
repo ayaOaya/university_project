@@ -1,0 +1,118 @@
+.header{
+    font-family: sans-serif;
+    .container{
+        .header-bg{
+            background-image: url(../../public/img/pexels-a-barry-3733685.jpg);
+            height: 100vh;
+            width: 100vw;
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            filter: brightness(85%);
+            background-attachment: fixed;
+        }
+        .titles{
+            position: absolute;
+            top: 8rem;
+            left: 2rem;
+            color: #fff;
+            .header-title{
+                padding-bottom: 10px;
+                font-size: 55px;
+                letter-spacing: 6px;
+            }
+            .header-tiny-p{
+                font-size: 15px;
+            }
+
+        }
+        .wrapper-grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            height: 10vh;
+            width: 100vw;
+            position: absolute;
+            background-color: #7cdaffeb;
+            top: 45rem;
+            left: 0;
+            z-index: 5;
+            border-radius: 5px;
+            padding: 0 35px;
+
+            .cloumn1{
+                display: flex;
+                flex-direction: row;
+                .wrapper-grid-img1{
+                    background-image: url(../../public/img/pexels-kampus-production-5940841.jpg);
+                    height: 8vh;
+                    width: 4vw;
+                    background-size: cover;
+                    background-position: center center;
+                    border-radius: 50%;
+                    margin-top: 5px;
+                }
+                .grid-text{
+                    padding-top: 20px;
+                    padding-left: 10px;
+                }
+            }
+
+            .cloumn2{
+                display: flex;
+                flex-direction: row;
+                .wrapper-grid-img2{
+                    background-image: url(../../public/img/pexels-kampus-production-5940841.jpg);
+                    height: 8vh;
+                    width: 4vw;
+                    background-size: cover;
+                    background-position: center center;
+                    border-radius: 50%;
+                    margin-top: 5px;
+                }
+                .grid-text{
+                    padding-top: 20px;
+                    padding-left: 10px;
+                }
+
+            }
+
+            .cloumn3{
+                display: flex;
+                flex-direction: row;
+                .wrapper-grid-img3{
+                    background-image: url(../../public/img/pexels-kampus-production-5940841.jpg);
+                    height: 8vh;
+                    width: 4vw;
+                    background-size: cover;
+                    background-position: center center;
+                    border-radius: 50%;
+                    margin-top: 5px;
+                }
+                .grid-text{
+                    padding-top: 20px;
+                    padding-left: 10px;
+                }
+
+            }
+
+            .cloumn4{
+                display: flex;
+                flex-direction: row;
+                .wrapper-grid-img4{
+                    background-image: url(../../public/img/pexels-kampus-production-5940841.jpg);
+                    height: 8vh;
+                    width: 4vw;
+                    background-size: cover;
+                    background-position: center center;
+                    border-radius: 50%;
+                    margin-top: 5px;
+                }
+                .grid-text{
+                    padding-top: 20px;
+                    padding-left: 10px;
+                }
+
+            }
+        }
+    }
+}
