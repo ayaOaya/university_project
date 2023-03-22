@@ -1,5 +1,6 @@
 .header{
     font-family: sans-serif;
+    overflow-x: hidden;
     .container{
         .header-bg{
             background-image: url(../../public/img/pexels-a-barry-3733685.jpg);
@@ -10,19 +11,27 @@
             background-repeat: no-repeat;
             filter: brightness(85%);
             background-attachment: fixed;
+            clip-path: polygon(37% 30%, 70% 30%, 69% 71%, 36% 71%);
+            opacity: 0;
+
         }
         .titles{
             position: absolute;
             top: 8rem;
             left: 2rem;
             color: #fff;
+
             .header-title{
                 padding-bottom: 10px;
                 font-size: 55px;
                 letter-spacing: 6px;
+                opacity: 0;
             }
             .header-tiny-p{
                 font-size: 15px;
+                opacity: 0;
+                clip-path: polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%);
+
             }
 
         }

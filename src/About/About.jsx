@@ -1,10 +1,24 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./style.scss"
+import gsap from 'gsap'
+import ScrollTrigger from 'gsap/ScrollTrigger'
 
 export default function About() {
+    gsap.registerPlugin(ScrollTrigger);
+
+    useEffect(() =>{
+        gsap.to(".about-info", {opacity:1, duration:1, clipPath:" polygon(100% 0%, 0% 0%, 0% 100%, 100% 100%)", scrollTrigger: {
+            trigger:".about-info"
+        }})
+        gsap.to(".connect", { opacity:1, duration:1, clipPath:"polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)", scrollTrigger:{trigger:".connect"}})
+
+        gsap.to(".conatiner-grid1-img",{ opacity:1, duration:1, clipPath:"polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)", scrollTrigger: {trigger:".conatiner-grid1-img"}})
+        gsap.to(".conatiner-grid2-img",{ opacity:1, duration:1, clipPath:"polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)", scrollTrigger: {trigger:".conatiner-grid2-img"}})
+
+    }, [])
   return (
     <>
-    <div className="about">
+    <div className="about" data-scroll-section>
         <div className="about-grid">
             <div className="about-titles">
                 <h1 className='about-h1'>Accessible Resources</h1>

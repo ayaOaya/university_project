@@ -1,11 +1,19 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./style.scss"
+import gsap from 'gsap'
+import ScrollTrigger from 'gsap/ScrollTrigger'
 
 
 export default function Navbar() {
+  gsap.registerPlugin(ScrollTrigger);
+
+  useEffect(() =>{
+    gsap.to(".navbar", {opacity:1, delay:2, duration:1 })
+  })
+  
   return (
     <>
-    <div className="navbar">
+    <div className="navbar" data-scroll-section>
         <div className="wrapper">
             <div className="container">
                 <h1 className="title">UNIVERSITY</h1>
