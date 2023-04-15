@@ -25,11 +25,6 @@ function raf(time) {
 
 requestAnimationFrame(raf)
 
-
-
-
-
-
 function App() {
   return (
     <div className="App" id='main-container' data-scroll-container>

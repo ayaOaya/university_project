@@ -33,10 +33,7 @@ export default function About() {
             <p className="about-info-p">"I am so grateful for my college experience, it provided me not only with a quality education but also with a diverse community, countless opportunities for personal and professional growth, and a supportive environment that truly helped me thrive." Katy larrl</p>
            </div>
         </div>
-
-
-
-        {/* The connect section */}
+       {/* The connect section */}
 
         <div className="connect">
             <div className="connect-grid">
@@ -62,21 +59,13 @@ export default function About() {
                 </div>
             </div>
         </div>
-
-
-
         {/* Big picture in the about page */}
 
         <div className="bg-pic-container">
             <div className="bg-pic"></div>
         </div>
 
-
-
-
         {/* the pics and text animation */}
-
-
         <div className="picsText-container">
             <div className="container-grid-1">
                 <div className="conatiner-grid1-img"></div>
@@ -85,8 +74,6 @@ export default function About() {
                     <p className="grid1-p">In addition to our academic programs, we offer a wide range of extracurricular activities and community engagement opportunities. From student clubs and organizations to service projects and internships, there are countless ways for students to get involved and make a difference. We believe that by working together, we can create a more just and equitable world, and we are committed to doing our part to make that vision a reality.</p>
                 </div>
             </div>
-
-
             <div className="container-grid-2">
              <div className="container-grid2-titles">
                 <h1 className="grid2-h1">Positive Impact</h1>
@@ -94,13 +81,7 @@ export default function About() {
              </div>
              <div className="conatiner-grid2-img"></div>
         </div>
-
         </div>
-
-
-
-
-
     </div>
     </>
   )

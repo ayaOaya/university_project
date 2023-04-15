@@ -3,7 +3,6 @@ import "./style.scss"
 import gsap from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger'
 
-
 export default function Navbar() {
   gsap.registerPlugin(ScrollTrigger);
 
